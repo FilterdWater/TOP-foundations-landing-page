@@ -1,0 +1,201 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.content-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 56rem;
+}
+
+.default-section-padding {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Hero section & header styling starts below this line */
+
+.hero-section,
+.footer {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.header > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-link-text,
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 26rem;
+}
+
+.hero-right {
+  background-color: gray;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-button {
+  color: #fff;
+  background-color: #3882f6;
+  padding: 8px 16px;
+  border-radius: 6px;
+  max-width: fit-content;
+  border: none;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 4rem 0;
+}
+
+/* Hero styling ends above this line */
+
+/* Information section styling starts below this line */
+
+.information-header-text {
+  padding-bottom: 3rem;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 48px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.card-image {
+  border: solid #3882f6;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10rem;
+}
+
+.card-text {
+  text-align: center;
+  color: #1f2937;
+}
+
+/* Information section styling ends above this line */
+
+/* Quote section styling starts below this line */
+
+.quote-section-padding {
+  padding: 5rem 0;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote-ie {
+  font-weight: bold;
+  text-align: right;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Quote section styling ends above this line */
+
+/* CTA section styling starts below this line */
+
+.CTA-box {
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 3rem 6rem;
+  border-radius: 8px;
+}
+
+.CTA-text-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.CTA-button {
+  padding: 0.3rem 2rem;
+  outline: solid #fff;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+/* CTA section styling ends above this line */
+
+/* Footer styling starts below this line */
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 2rem 4rem;
+}
